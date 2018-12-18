@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormComponent } from './form/form.component';
 import { BoxComponent } from './box/box.component';
+import { FormModule } from './form/form.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormModule
   ],
   declarations: [
-    BoxComponent,
-    FormComponent
+    BoxComponent
   ],
+  providers: [],
   exports: [
     BoxComponent,
-    FormComponent
+    FormModule
   ]
 
 })

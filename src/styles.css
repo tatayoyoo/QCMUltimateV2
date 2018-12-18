@@ -1,4 +1,39 @@
 :root {
     font-family: 'Open Sans';
     font-weight: 600;
+
+    --Gray1: #496169;
+    --Gray2: #6D8086;
+    --Gray3: #919FA4;
+    --Gray4: #A9A9A9;
+    --Gray5: #B5BFC2;
+    --Gray6: #DADEE0;
+    --Gray7: #B4C6CC;
+    --GrayBlue1: #91A8B0;
+    --GrayBlue2: #D8E4E8;
+    --GrayBlue3: #EFF5F7;
+    --Blue1: #0268B5;
+    --Blue2: #3486C3;
+    --Blue3: #66A4D2;
+    --Blue4: #99C2E1;
+    --Blue5: #CBE0EF;
+    --LightBlue1: #428DFF;
+    --LightBlue2: #67A3FF;
+    --LightBlue3: #8DBAFF;
+    --LightBlue4: #B2D1FF;
+    --LightBlue5: #D8E7FF;
+    --BlueGreen1: #06847D;
+    --BlueGreen2: #379C96;
+    --BlueGreen3: #69B5B0;
+    --BlueGreen4: #9ACDCA;
+    --BlueGreen5: #CCE6E4;
+    --LightBlueGreen1: #41CCBA;
+    --LightBlueGreen2: #66D6C7;
+    --LightBlueGreen3: #8CE0D5;
+    --LightBlueGreen4: #B2EAE3;
+    --LightBlueGreen5: #D8F4F0;
+}
+
+html { 
+    margin: 0;
 }
