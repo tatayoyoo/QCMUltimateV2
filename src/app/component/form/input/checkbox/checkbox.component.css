@@ -3,12 +3,13 @@
 }
 
 .containerCheckbox {
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .checkbox {
     visibility: hidden;
-    display: none;
+    /* display: none; */
 }
 
 .spanCheckbox {
@@ -20,7 +21,7 @@
     height: 17px;
     border-radius: 3px;
     margin: 0 10px 0 0;
-    background-color: white;
+    background-color: var(--Gray7);
     border: 1px solid var(--Gray7);
 }
 
